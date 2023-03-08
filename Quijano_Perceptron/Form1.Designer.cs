@@ -133,6 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
             this.ClientSize = new System.Drawing.Size(390, 307);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -146,7 +147,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Quijano_Perceptron";
             this.Text = "Quijano_Perceptron";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
